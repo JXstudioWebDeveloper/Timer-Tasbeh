@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vh;
+  height: 100vh;
+  background: url(./csm_Lily_02e82e4991.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.timer {
+  width: 800px;
+  height: 200px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  left: 520px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.timer h1 {
+  font-size: 100px;
+  color: rgb(235, 108, 137);
+}
+.tasbeh {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 675px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.tasbeh h1 {
+  font-size: 150px;
+  color: rgb(255, 171, 169);
+}
+.btns {
+  margin-top: 60px;
+  margin-left: 8px;
+}
+section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plus {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(235, 108, 137);
+}
+.delet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 250px;
+  left: 350px;
+  background-color: rgb(235, 108, 137);
+}
+@media (max-width: 810px) {
+  .timer {
+  width: 800px;
+  height: 200px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  left: 4px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.timer h1 {
+  font-size: 100px;
+  color: rgb(235, 108, 137);
+}
+.tasbeh {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.tasbeh h1 {
+  font-size: 150px;
+  color: rgb(255, 171, 169);
+}
+.btns {
+  margin-top: 60px;
+  margin-left: 8px;
+}
+section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plus {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(235, 108, 137);
+}
+.delet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 250px;
+  left: 350px;
+  background-color: rgb(235, 108, 137);
+}
+}
+@media (max-width: 550px) {
+  .timer {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.timer h1 {
+  font-size: 70px;
+  color: rgb(235, 108, 137);
+}
+.tasbeh {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.tasbeh h1 {
+  font-size: 120px;
+  color: rgb(255, 171, 169);
+}
+.btns {
+  margin-top: 50px;
+  margin-left: 8px;
+}
+.plus {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(235, 108, 137);
+}
+.delet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 170px;
+  left: 250px;
+  background-color: rgb(235, 108, 137);
+}
+}
+@media (max-width: 375px) {
+  .timer {
+  width: 370px;
+  height: 200px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  left: 2px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.timer h1 {
+  font-size: 50px;
+  color: rgb(235, 108, 137);
+}
+.tasbeh {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.tasbeh h1 {
+  font-size: 100px;
+  color: rgb(255, 171, 169);
+}
+.btns {
+  margin-top: 30px;
+}
+.plus {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(235, 108, 137);
+}
+.delet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 150px;
+  left: 200px;
+  background-color: rgb(235, 108, 137);
+}
+}
