@@ -6,11 +6,15 @@ let s = localStorage.getItem('counter')
   : 0;
 sum.innerHTML = s;
 plusBtn.addEventListener('click', () => {
+  const sound = new Audio('mixkit-camera-shutter-click-1133.wav');
+  sound.play();
   s++;
   sum.innerHTML = s;
   localStorage.setItem('counter', s);
 });
 deletBtn.addEventListener('click', () => {
+  const sound2 = new Audio('mixkit-fast-double-click-on-mouse-275.wav')
+  sound2.play()
   s = 0;
   sum.innerHTML = s;
   localStorage.removeItem('counter');
